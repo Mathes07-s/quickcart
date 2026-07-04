@@ -65,3 +65,21 @@
   font-size: 0.8rem;
   color: #555;
 }
+
+/* Add to cart button */
+.add-to-cart-btn {
+  margin-top: 1rem;
+  width: 100%;
+  padding: 0.6rem;
+  background: #4c51bf;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.add-to-cart-btn:hover {
+  background: #3c41a0;
+}

@@ -17,3 +17,38 @@
   font-size: 1.1rem;
   opacity: 0.9;
 }
+
+/* Header container for flex layout */
+.header-container {
+  position: relative;
+}
+
+.cart-icon-btn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: none;
+  border: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: white;
+  transition: transform 0.2s;
+}
+
+.cart-icon-btn:hover {
+  transform: scale(1.05);
+}
+
+.cart-count {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background: #ef4444;
+  color: white;
+  font-size: 0.7rem;
+  font-weight: bold;
+  padding: 2px 6px;
+  border-radius: 50%;
+  min-width: 18px;
+  text-align: center;
+}
